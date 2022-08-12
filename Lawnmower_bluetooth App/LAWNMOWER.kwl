@@ -1,0 +1,20 @@
+Keuwlsoft Bluetooth Electronics Panel File
+2022-05-09 22:11:10
+2
+
+*.kwl
+set_grid_size(17,7)
+add_text_box(0,0,6,C,Serial monitor,245,240,245,)
+add_text_box(7,1,2,C,SEMI-A,245,240,245,"\n    ")
+add_text_box(13,2,3,C,D-Pad,245,240,245,)
+add_text_box(9,0,8,C,LAWN_MOVER ARDUINO APP,0,255,114,)
+add_text_box(10,5,2,C,Brake,245,240,245,)
+add_text_box(10,3,2,C,AUTO,245,240,245,)
+add_text_box(7,5,2,C,Manual,245,240,245,)
+add_button(12,3,9,O,)
+add_button(12,5,14,S,0)
+add_switch(7,2,3,A,M,0,0)
+add_4way_pad(13,3,F,R,B,L,"\nS",0,,)
+add_monitor(0,1,6,,1)
+add_send_box(1,5,5,,,)
+set_panel_notes(,,,)
